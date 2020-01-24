@@ -9,7 +9,7 @@ const CallToAction = () => (
       title="Stay Updated"
       description="Give a final call to action because that's what the cool kids are doing."
     />
-    <Button>Get Early Access</Button>
+    <button id="example-widget-trigger" type="button">Buy Tickets</button>
   </div>
 )
 
