@@ -26,29 +26,19 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center" }}>Senor Shnacks Raspa Giveaway Week!</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      We will be giving away 100 free raspas at each of our locations.  Just click the button below
+      to get your tickets and show it when you are making your purchase!
     </p>
-    <Button>Get Early Access</Button>
+
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
       </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        />
-      </div>
+
     </div>
+    <button id="example-widget-trigger" type="button">Buy Tickets</button>
   </div>
 )
 

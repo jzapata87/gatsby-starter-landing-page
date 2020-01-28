@@ -11,9 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO />
     <Hero />
-    <Content />
-    <CallToAction />
-    <ValidationSchemaExample/>
+
   </Layout>
 )
 
