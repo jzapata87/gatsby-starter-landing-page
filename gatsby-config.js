@@ -14,7 +14,7 @@ module.exports = {
     resolve: `gatsby-plugin-facebook-analytics`,
     options: {
       // Required - set this to the ID of your Facebook app.
-      appId: `196914511461730`,
+      appId: `3025415194136842`,
 
       // Which version of the SDK to load.
       version: `v3.3`,
