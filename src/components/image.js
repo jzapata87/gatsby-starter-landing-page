@@ -1,6 +1,12 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from 'styled-components'
+
+
+const StyledImage = styled(Img)`
+  border-radius: 50%;
+`
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -26,7 +32,7 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img style={{borderRadius: 999}} fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <StyledImage fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
 export default Image
