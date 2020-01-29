@@ -6,6 +6,7 @@
   "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
+    "common-tags": "^1.8.0",
     "formik": "^2.1.2",
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
