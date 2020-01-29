@@ -3,6 +3,7 @@ import { stripIndent } from "common-tags"
 
 export const onRenderBody = ({ setHeadComponents }) => {
   const debug = false;
+  const includeInDevelopment = false;
   const sdkFile = debug === true ? `sdk/debug.js` : `sdk.js`
 
   if (process.env.NODE_ENV === `production` || includeInDevelopment || debug) {
