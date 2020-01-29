@@ -32,12 +32,11 @@ const Header = ({ siteTitle }) => (
       to get your tickets and show it when you are making your purchase!
     </p>
 
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
 
-    </div>
+
+        <MockupContent />
+
+
     <button id="example-widget-trigger" type="button">Buy Tickets</button>
   </div>
 )
